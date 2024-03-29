@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "endlessbiomes:reaching_vines"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "endlessbiomes:reaching_vines"
+  },
+  "categories": [
+    "end_stone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "endlessbiomes:reaching_vines"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "endlessbiomes:reaching_vines"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "endlessbiomes:reaching_marula"
+      }
+    }
+  ]
+}

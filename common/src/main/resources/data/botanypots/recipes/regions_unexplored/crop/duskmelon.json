@@ -1,0 +1,21 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:duskmelon_slice"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "regions_unexplored:duskmelon"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "regions_unexplored:duskmelon_slice"
+      }
+    }
+  ]
+}

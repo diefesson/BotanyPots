@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "quark:cherry_hedge"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "quark:cherry_hedge"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1800,
+  "display": {
+    "block": "quark:cherry_hedge"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "minecraft:cherry_leaves"
+      }
+    }
+  ]
+}

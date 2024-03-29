@@ -1,0 +1,32 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "regions_unexplored:mycotoxic_daisy"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:mycotoxic_daisy"
+  },
+  "categories": [
+    "dirt",
+    "netherrack",
+    "rich_soul",
+    "soul_soil"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "regions_unexplored:mycotoxic_daisy"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "regions_unexplored:mycotoxic_daisy"
+      }
+    }
+  ]
+}

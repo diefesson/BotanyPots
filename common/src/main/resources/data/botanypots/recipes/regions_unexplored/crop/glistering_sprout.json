@@ -1,0 +1,24 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:glistering_sprout"
+  },
+  "categories": [
+    "dirt",
+    "netherrack",
+    "rich_soul",
+    "soul_soil"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "regions_unexplored:glistering_sprout"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "regions_unexplored:glistering_sprout"
+      }
+    }
+  ]
+}

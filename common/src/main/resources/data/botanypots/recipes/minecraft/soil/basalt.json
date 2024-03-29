@@ -1,0 +1,21 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": "minecraft:basalt"
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "minecraft:basalt"
+  },
+  "display": {
+    "block": "minecraft:basalt"
+  },
+  "categories": [
+    "basalt",
+    "stone",
+    "mushroom"
+  ],
+  "growthModifier": 1.00
+}

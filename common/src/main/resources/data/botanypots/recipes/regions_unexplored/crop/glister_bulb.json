@@ -1,0 +1,32 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "regions_unexplored:glister_bulb"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:glister_bulb"
+  },
+  "categories": [
+    "dirt",
+    "netherrack",
+    "rich_soul",
+    "soul_soil"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "regions_unexplored:glister_bulb"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "regions_unexplored:glister_bulb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "deep_aether:squash_seeds"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "deep_aether:squash_seeds"
+  },
+  "categories": [
+    "farmland"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "deep_aether:squash_stem"
+  },
+  "drops": [
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "deep_aether:blue_squash"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "deep_aether:green_squash"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "deep_aether:purple_squash"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "deep_aether:squash_seeds"
+      }
+    }
+  ]
+}

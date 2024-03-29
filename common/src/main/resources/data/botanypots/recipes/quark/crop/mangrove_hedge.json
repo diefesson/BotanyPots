@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "quark:mangrove_hedge"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "quark:mangrove_hedge"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1800,
+  "display": {
+    "block": "quark:mangrove_hedge"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "minecraft:mangrove_leaves"
+      }
+    }
+  ]
+}

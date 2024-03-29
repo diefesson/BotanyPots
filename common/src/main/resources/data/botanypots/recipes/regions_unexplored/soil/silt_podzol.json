@@ -1,0 +1,24 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "regions_unexplored:silt_podzol"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "regions_unexplored:silt_podzol"
+  },
+  "display": {
+    "block": "regions_unexplored:silt_podzol"
+  },
+  "categories": [
+    "dirt",
+    "podzol",
+    "mulch",
+    "mushroom"
+  ],
+  "growthModifier": 1
+}

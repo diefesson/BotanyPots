@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "endlessbiomes:penumbral_spring_pad"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "endlessbiomes:penumbral_spring_pad"
+  },
+  "categories": [
+    "penumbral_moss"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "endlessbiomes:penumbral_spring_pad"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "endlessbiomes:penumbral_spring_pad"
+      }
+    }
+  ]
+}

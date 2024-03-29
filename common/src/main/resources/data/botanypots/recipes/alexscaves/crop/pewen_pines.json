@@ -1,0 +1,32 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "alexscaves:pewen_pines"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "alexscaves:pewen_pines"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "alexscaves:pewen_pines"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "alexscaves:pewen_pines"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

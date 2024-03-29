@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "quark:chorus_weeds"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "quark:chorus_weeds"
+  },
+  "categories": [
+    "end_stone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "quark:chorus_weeds"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "quark:chorus_weeds"
+      }
+    }
+  ]
+}

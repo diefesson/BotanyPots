@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "quark:chorus_twist"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "quark:chorus_twist"
+  },
+  "categories": [
+    "end_stone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "quark:chorus_twist"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "quark:chorus_twist"
+      }
+    }
+  ]
+}

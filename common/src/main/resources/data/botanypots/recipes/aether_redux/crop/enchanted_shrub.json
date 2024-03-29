@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "aether_redux:enchanted_shrub"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "aether_redux:enchanted_shrub"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "aether_redux:enchanted_shrub"
+  },
+  "drops": [
+    {
+      "chance": 0.33,
+      "output": {
+        "item": "aether_redux:enchanted_shrub"
+      }
+    }
+  ]
+}

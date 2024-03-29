@@ -1,0 +1,32 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "alexscaves:fiddlehead"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "alexscaves:fiddlehead"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "alexscaves:fiddlehead"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "alexscaves:fiddlehead"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

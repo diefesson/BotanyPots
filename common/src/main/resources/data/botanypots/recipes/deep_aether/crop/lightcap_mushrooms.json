@@ -1,0 +1,30 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "deep_aether:lightcap_mushrooms"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "deep_aether:lightcap_mushrooms"
+  },
+  "categories": [
+    "dirt",
+    "stone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "deep_aether:lightcap_mushrooms"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "deep_aether:lightcap_mushrooms"
+      }
+    }
+  ]
+}

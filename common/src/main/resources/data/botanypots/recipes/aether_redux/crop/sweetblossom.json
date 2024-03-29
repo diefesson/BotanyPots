@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "aether_redux:sweetblossom"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "aether_redux:sweetblossom"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "aether_redux:sweetblossom"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "aether_redux:sweetblossom"
+      }
+    }
+  ]
+}

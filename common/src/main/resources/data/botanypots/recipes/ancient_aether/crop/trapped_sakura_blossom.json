@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "ancient_aether:trapped_sakura_blossoms"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "ancient_aether:trapped_sakura_blossoms"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "ancient_aether:trapped_sakura_blossoms"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "ancient_aether:trapped_sakura_blossoms"
+      }
+    }
+  ]
+}

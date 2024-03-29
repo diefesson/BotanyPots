@@ -1,0 +1,32 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "alexscaves:cycad"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "alexscaves:cycad"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "alexscaves:cycad"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "alexscaves:cycad"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "regions_unexplored:tall_yellow_bioshroom"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:tall_yellow_bioshroom"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1800,
+  "display": {
+    "block": "regions_unexplored:tall_yellow_bioshroom"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "regions_unexplored:tall_yellow_bioshroom"
+      }
+    }
+  ]
+}

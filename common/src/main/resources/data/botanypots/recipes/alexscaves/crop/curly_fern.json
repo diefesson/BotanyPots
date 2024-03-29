@@ -1,0 +1,32 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "alexscaves:curly_fern"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "alexscaves:curly_fern"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "alexscaves:curly_fern"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "alexscaves:curly_fern"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

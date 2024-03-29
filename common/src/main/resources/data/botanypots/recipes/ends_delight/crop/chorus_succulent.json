@@ -1,0 +1,30 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "ends_delight:chorus_succulent"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "ends_delight:chorus_succulent"
+  },
+  "categories": [
+    "dirt",
+    "stone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "ends_delight:chorus_succulent"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "ends_delight:chorus_succulent"
+      }
+    }
+  ]
+}

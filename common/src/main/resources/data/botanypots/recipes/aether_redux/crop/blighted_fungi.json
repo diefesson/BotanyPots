@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "aether_redux:blighted_fungi"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "aether_redux:blighted_fungi"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "aether_redux:blighted_fungi"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "aether_redux:blighted_fungi"
+      }
+    }
+  ]
+}

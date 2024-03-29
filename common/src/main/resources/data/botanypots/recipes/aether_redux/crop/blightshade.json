@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "aether_redux:blightshade"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "aether_redux:blightshade"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "aether_redux:blightshade"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "aether_redux:blightshade"
+      }
+    }
+  ]
+}

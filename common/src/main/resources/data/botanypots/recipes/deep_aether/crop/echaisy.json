@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "deep_aether:echaisy"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "deep_aether:echaisy"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "deep_aether:echaisy"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "deep_aether:echaisy"
+      }
+    }
+  ]
+}

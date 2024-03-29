@@ -1,0 +1,16 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "minecraft:tropical_fish_bucket"
+  },
+  "display": {
+    "block": "minecraft:water",
+    "renderFluid": true
+  },
+  "categories": [
+    "water",
+    "fish",
+    "tropical_fish"
+  ],
+  "growthModifier": 1.15
+}

@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "aether_redux:xaelia_flowers"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "aether_redux:xaelia_flowers"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "aether_redux:xaelia_flowers"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "aether_redux:xaelia_flowers"
+      }
+    }
+  ]
+}

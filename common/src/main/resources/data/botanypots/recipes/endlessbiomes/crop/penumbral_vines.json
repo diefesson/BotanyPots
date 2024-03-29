@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "endlessbiomes:penumbral_vines"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "endlessbiomes:penumbral_vines"
+  },
+  "categories": [
+    "end_stone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "endlessbiomes:penumbral_vines"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "endlessbiomes:penumbral_vines"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "endlessbiomes:penumbral_bulb"
+      }
+    }
+  ]
+}

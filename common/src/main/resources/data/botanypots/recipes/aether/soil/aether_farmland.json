@@ -1,0 +1,22 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "aether:aether_farmland"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "aether:aether_farmland"
+  },
+  "display": {
+    "block": "aether:aether_farmland"
+  },
+  "categories": [
+    "aether",
+    "farmland"
+  ],
+  "growthModifier": 1.1
+}

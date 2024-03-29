@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "deeperdarker:gloomy_cactus"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "deeperdarker:gloomy_cactus"
+  },
+  "categories": [
+    "gloom"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "deeperdarker:gloomy_cactus"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "deeperdarker:gloomy_cactus"
+      }
+    }
+  ]
+}

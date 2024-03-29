@@ -1,0 +1,30 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "quark:glow_lichen_growth"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "quark:glow_lichen_growth"
+  },
+  "categories": [
+    "dirt",
+    "stone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "quark:glow_lichen_growth"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "quark:glow_lichen_growth"
+      }
+    }
+  ]
+}

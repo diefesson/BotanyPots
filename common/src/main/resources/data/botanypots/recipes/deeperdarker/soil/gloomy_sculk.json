@@ -1,0 +1,21 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "deeperdarker:gloomy_sculk"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "deeperdarker:gloomy_sculk"
+  },
+  "display": {
+    "block": "deeperdarker:gloomy_sculk"
+  },
+  "categories": [
+    "gloom"
+  ],
+  "growthModifier": 1
+}

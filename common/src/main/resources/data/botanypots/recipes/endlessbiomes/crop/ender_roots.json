@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "endlessbiomes:ender_roots"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "endlessbiomes:ender_roots"
+  },
+  "categories": [
+    "end_stone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "endlessbiomes:ender_roots"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "endlessbiomes:ender_roots"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:stone_bud"
+  },
+  "categories": [
+    "stone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "regions_unexplored:stone_bud"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "regions_unexplored:stone_bud"
+      }
+    }
+  ]
+}

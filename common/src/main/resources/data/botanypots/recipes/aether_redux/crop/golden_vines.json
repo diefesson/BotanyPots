@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "aether_redux:golden_vines"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "aether_redux:golden_vines"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "aether_redux:golden_vines"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "deep_aether:goldenleaf_berries"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "aether_redux:golden_vines"
+      }
+    }
+  ]
+}

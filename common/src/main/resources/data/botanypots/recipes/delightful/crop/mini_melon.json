@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "delightful:mini_melon"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "delightful:mini_melon"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1800,
+  "display": {
+    "block": "delightful:mini_melon"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "delightful:mini_melon"
+      }
+    }
+  ]
+}

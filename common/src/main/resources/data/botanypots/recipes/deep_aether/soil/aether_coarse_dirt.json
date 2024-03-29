@@ -1,0 +1,23 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "deep_aether:aether_coarse_dirt"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "deep_aether:aether_coarse_dirt"
+  },
+  "display": {
+    "block": "deep_aether:aether_coarse_dirt"
+  },
+  "categories": [
+    "aether",
+    "coarse_dirt",
+    "dirt"
+  ],
+  "growthModifier": 1
+}

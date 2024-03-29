@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "endlessbiomes:ender_ferns"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "endlessbiomes:ender_ferns"
+  },
+  "categories": [
+    "end_stone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "endlessbiomes:ender_ferns"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "endlessbiomes:ender_ferns"
+      }
+    }
+  ]
+}

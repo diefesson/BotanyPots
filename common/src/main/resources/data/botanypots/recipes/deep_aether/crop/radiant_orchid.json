@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "deep_aether:radiant_orchid"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "deep_aether:radiant_orchid"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "deep_aether:radiant_orchid"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "deep_aether:radiant_orchid"
+      }
+    }
+  ]
+}

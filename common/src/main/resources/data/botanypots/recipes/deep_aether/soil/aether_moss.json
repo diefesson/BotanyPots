@@ -1,0 +1,22 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "deep_aether:aether_moss_block"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "deep_aether:aether_moss_block"
+  },
+  "display": {
+    "block": "deep_aether:aether_moss_block"
+  },
+  "categories": [
+    "aether",
+    "moss"
+  ],
+  "growthModifier": 1
+}

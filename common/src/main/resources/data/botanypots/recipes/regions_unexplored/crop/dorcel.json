@@ -1,0 +1,23 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:dorcel"
+  },
+  "categories": [
+    "dirt",
+    "netherrack",
+    "rich_soul"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "regions_unexplored:dorcel"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "regions_unexplored:dorcel"
+      }
+    }
+  ]
+}

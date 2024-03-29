@@ -1,0 +1,21 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "farmingforblockheads:fertilized_farmland_healthy"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "farmingforblockheads:fertilized_farmland_healthy"
+  },
+  "display": {
+    "block": "farmingforblockheads:fertilized_farmland_healthy"
+  },
+  "categories": [
+    "farmland"
+  ],
+  "growthModifier": 1.5
+}

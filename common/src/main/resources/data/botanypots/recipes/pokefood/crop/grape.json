@@ -1,0 +1,49 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "pokefood:grape_sprout"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "pokefood:grape_sprout"
+  },
+  "categories": [
+    "grass",
+    "rich_soul"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "pokefood:grape_sprout_2"
+  },
+  "drops": [
+    {
+      "chance": 0.50,
+      "output": {
+        "item": "pokefood:black_grape"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.50,
+      "output": {
+        "item": "pokefood:green_grape"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "pokefood:grape_sprout"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}

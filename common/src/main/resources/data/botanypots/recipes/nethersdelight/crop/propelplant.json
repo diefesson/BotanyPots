@@ -1,0 +1,36 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "nethersdelight:propelplant_cane"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "nethersdelight:propelplant_cane"
+  },
+  "categories": [
+    "dirt",
+    "netherrack"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "nethersdelight:propelplant_cane"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "nethersdelight:propelpearl"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "nethersdelight:propelplant_cane"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "aether_redux:zyatrix"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "aether_redux:zyatrix"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "aether_redux:zyatrix"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "aether_redux:zyatrix"
+      }
+    }
+  ]
+}

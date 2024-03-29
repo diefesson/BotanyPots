@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "aether_redux:zanberry_bush_stem"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "aether_redux:zanberry_bush_stem"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "aether_redux:zanberry_bush"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "aether_redux:zanberry"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "aether_redux:zanberry_bush_stem"
+      }
+    }
+  ]
+}

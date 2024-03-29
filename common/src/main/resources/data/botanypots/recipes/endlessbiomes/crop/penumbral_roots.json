@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "endlessbiomes:penumbral_roots"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "endlessbiomes:penumbral_roots"
+  },
+  "categories": [
+    "penumbral_moss"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "endlessbiomes:penumbral_roots"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "endlessbiomes:penumbral_roots"
+      }
+    }
+  ]
+}

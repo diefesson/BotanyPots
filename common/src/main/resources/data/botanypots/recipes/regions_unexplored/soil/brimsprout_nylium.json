@@ -1,0 +1,26 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "regions_unexplored:brimsprout_nylium"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "regions_unexplored:brimsprout_nylium"
+  },
+  "display": {
+    "block": "regions_unexplored:brimsprout_nylium"
+  },
+  "categories": [
+    "brimsprout",
+    "nylium",
+    "brimsprout_nylium",
+    "mushroom",
+    "netherrack",
+    "nether"
+  ],
+  "growthModifier": 1
+}

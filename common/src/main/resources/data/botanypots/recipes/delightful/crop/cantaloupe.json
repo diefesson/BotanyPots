@@ -1,0 +1,35 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "delightful:cantaloupe_seeds"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "delightful:cantaloupe_seeds"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1800,
+  "display": {
+    "block": "delightful:cantaloupe"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "delightful:cantaloupe"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "delightful:cantaloupe_seeds"
+      }
+    }
+  ]
+}

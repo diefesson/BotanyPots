@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "snowyspirit:ginger_flower"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "snowyspirit:ginger_flower"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "snowyspirit:ginger"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "snowyspirit:ginger_flower"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "regions_unexplored:pink_magnolia_shrub"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:pink_magnolia_shrub"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "regions_unexplored:pink_magnolia_shrub"
+  },
+  "drops": [
+    {
+      "chance": 0.33,
+      "output": {
+        "item": "regions_unexplored:pink_magnolia_shrub"
+      }
+    }
+  ]
+}

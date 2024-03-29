@@ -1,0 +1,30 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "deeperdarker:sculk_vines"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "deeperdarker:sculk_vines"
+  },
+  "categories": [
+    "dirt",
+    "stone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "deeperdarker:sculk_vines"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "deeperdarker:sculk_vines"
+      }
+    }
+  ]
+}

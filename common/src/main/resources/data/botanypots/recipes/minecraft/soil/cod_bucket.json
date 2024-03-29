@@ -1,0 +1,16 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "minecraft:cod_bucket"
+  },
+  "display": {
+    "block": "minecraft:water",
+    "renderFluid": true
+  },
+  "categories": [
+    "water",
+    "fish",
+    "cod"
+  ],
+  "growthModifier": 1.15
+}

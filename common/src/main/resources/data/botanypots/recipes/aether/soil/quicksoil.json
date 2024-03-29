@@ -1,0 +1,22 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "aether:quicksoil"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "aether:quicksoil"
+  },
+  "display": {
+    "block": "aether:quicksoil"
+  },
+  "categories": [
+    "aether",
+    "sand"
+  ],
+  "growthModifier": 1.05
+}

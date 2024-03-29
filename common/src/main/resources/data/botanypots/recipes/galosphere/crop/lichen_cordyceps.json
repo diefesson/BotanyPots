@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "galosphere:lichen_cordyceps"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "galosphere:lichen_cordyceps"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "galosphere:lichen_cordyceps_plant"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "galosphere:lichen_cordyceps"
+      }
+    }
+  ]
+}

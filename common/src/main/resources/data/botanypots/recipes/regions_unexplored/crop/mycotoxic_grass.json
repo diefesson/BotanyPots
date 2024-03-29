@@ -1,0 +1,24 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:mycotoxic_grass"
+  },
+  "categories": [
+    "dirt",
+    "netherrack",
+    "rich_soul",
+    "soul_soil"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "regions_unexplored:mycotoxic_grass"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "regions_unexplored:mycotoxic_grass"
+      }
+    }
+  ]
+}

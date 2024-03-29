@@ -1,0 +1,51 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "aether_redux:chromatic_shrub"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "aether_redux:chromatic_shrub"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "aether_redux:chromatic_shrub"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "aether_redux:fieldsprout_log"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+    },
+    {
+      "chance": 0.10,
+      "output": {
+        "item": "aether:skyroot_stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "aether_redux:chromaberry"
+      }
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "aether_redux:chromatic_shrub"
+      }
+    }
+  ]
+}

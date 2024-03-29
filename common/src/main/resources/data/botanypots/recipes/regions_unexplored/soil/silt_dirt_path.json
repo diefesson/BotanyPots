@@ -1,0 +1,21 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "regions_unexplored:silt_dirt_path"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "regions_unexplored:silt_dirt_path"
+  },
+  "display": {
+    "block": "regions_unexplored:silt_dirt_path"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthModifier": 0.5
+}

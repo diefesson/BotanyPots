@@ -1,0 +1,16 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "minecraft:salmon_bucket"
+  },
+  "display": {
+    "block": "minecraft:water",
+    "renderFluid": true
+  },
+  "categories": [
+    "water",
+    "fish",
+    "salmon"
+  ],
+  "growthModifier": 1.15
+}

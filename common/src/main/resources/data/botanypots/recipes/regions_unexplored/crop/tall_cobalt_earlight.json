@@ -1,0 +1,32 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "regions_unexplored:tall_cobalt_earlight"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:tall_cobalt_earlight"
+  },
+  "categories": [
+    "dirt",
+    "netherrack",
+    "rich_soul",
+    "soul_soil"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "regions_unexplored:tall_cobalt_earlight"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "regions_unexplored:tall_cobalt_earlight"
+      }
+    }
+  ]
+}

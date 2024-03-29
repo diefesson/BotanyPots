@@ -1,0 +1,21 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "regions_unexplored:frozen_grass"
+  },
+  "categories": [
+    "snow"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "regions_unexplored:frozen_grass"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "regions_unexplored:frozen_grass"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "cold_sweat:soul_sprout"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "cold_sweat:soul_sprout"
+  },
+  "categories": [
+    "soul_sand"
+  ],
+  "growthTicks": 1500,
+  "display": {
+    "block": "cold_sweat:soul_stalk",
+    "properties": {
+      "section": "3",
+      "age": 0
+    }
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "cold_sweat:soul_sprout"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "cold_sweat:soul_sprout"
+      }
+    }
+  ]
+}

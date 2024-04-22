@@ -22,6 +22,12 @@
     {
       "chance": 1,
       "output": {
+        "item": "snowyspirit:ginger"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
         "item": "snowyspirit:ginger_flower"
       }
     }

@@ -1,0 +1,29 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "quark:glow_shroom"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "quark:glow_shroom"
+  },
+  "categories": [
+    "mushroom"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "quark:glow_shroom"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "quark:glow_shroom"
+      }
+    }
+  ]
+}

@@ -103,9 +103,12 @@ public class BasicPotInteraction extends PotInteraction {
             }
 
             // If the stack can be damaged try to damage it instead of destroying it directly.
-            if (this.damageHeld && heldStack.getMaxDamage() > 0) {
+            if (this.damageHeld) {
 
-                Services.INVENTORY_HELPER.damageStack(heldStack, 1, player, hand == InteractionHand.MAIN_HAND ? EquipmentSlot.MAINHAND : EquipmentSlot.OFFHAND);
+                if (heldStack.isDamageableItem()) {
+
+                    Services.INVENTORY_HELPER.damageStack(heldStack, 1, player, hand == InteractionHand.MAIN_HAND ? EquipmentSlot.MAINHAND : EquipmentSlot.OFFHAND);
+                }
             }
 
             else {

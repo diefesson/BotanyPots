@@ -1,0 +1,38 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "foodables:garlic_seeds",
+        "foodables:garlic"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "foodables:garlic_seeds"
+  },
+  "categories": [
+    "dirt",
+    "farmland"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "foodables:garlic_crop"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "foodables:garlic"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "foodables:garlic_seeds"
+      }
+    }
+  ]
+}

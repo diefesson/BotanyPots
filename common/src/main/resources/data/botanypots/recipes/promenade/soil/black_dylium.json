@@ -1,0 +1,23 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "promenade:black_dylium"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "promenade:black_dylium"
+  },
+  "display": {
+    "block": "promenade:black_dylium"
+  },
+  "categories": [
+    "end",
+    "end_stone",
+    "black_dylium"
+  ],
+  "growthModifier": 1
+}

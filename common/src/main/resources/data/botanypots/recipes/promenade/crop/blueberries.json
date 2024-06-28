@@ -1,0 +1,50 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "promenade:blueberries"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "promenade:blueberries"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "lightLevel": 14,
+  "display": {
+    "type": "botanypots:transitional",
+    "phases": [
+      {
+        "block": "promenade:blueberry_bush",
+        "properties": {
+          "age": 0
+        }
+      },
+      {
+        "block": "promenade:blueberry_bush",
+        "properties": {
+          "age": 1
+        }
+      },
+      {
+        "block": "promenade:blueberry_bush",
+        "properties": {
+          "age": 3
+        }
+      }
+    ]
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "promenade:blueberries"
+      }
+    }
+  ]
+}

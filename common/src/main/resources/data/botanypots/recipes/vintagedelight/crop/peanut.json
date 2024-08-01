@@ -1,0 +1,39 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "vintagedelight:peanut"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "vintagedelight:peanut"
+  },
+  "categories": [
+    "dirt",
+    "farmland"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "vintagedelight:peanut_crop"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "vintagedelight:peanut"
+      },
+      "minRolls": 1,
+      "maxRolls": 3
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "vintagedelight:peanut"
+      }
+    }
+  ]
+}

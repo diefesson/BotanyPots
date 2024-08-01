@@ -1,0 +1,37 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "vintagedelight:wild_oats"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "vintagedelight:wild_oats"
+  },
+  "categories": [
+    "dirt",
+    "farmland"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "vintagedelight:wild_oats"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "vintagedelight:oat"
+      }
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "vintagedelight:oat_seeds"
+      }
+    }
+  ]
+}

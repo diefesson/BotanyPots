@@ -1,0 +1,23 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "vintagedelight:lush_grass_block"
+      ]
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "vintagedelight:lush_grass_block"
+  },
+  "display": {
+    "block": "vintagedelight:lush_grass_block"
+  },
+  "categories": [
+    "dirt",
+    "grass",
+    "lush_grass"
+  ],
+  "growthModifier": 1.05
+}

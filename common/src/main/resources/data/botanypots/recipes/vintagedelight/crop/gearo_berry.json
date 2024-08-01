@@ -1,0 +1,39 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "vintagedelight:gearo_berry"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "vintagedelight:gearo_berry"
+  },
+  "categories": [
+    "dirt",
+    "farmland"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "vintagedelight:gearo_berry_bush"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "vintagedelight:gearo_berry"
+      },
+      "minRolls": 1,
+      "maxRolls": 3
+    },
+    {
+      "chance": 0.15,
+      "output": {
+        "item": "vintagedelight:gearo_berry"
+      }
+    }
+  ]
+}

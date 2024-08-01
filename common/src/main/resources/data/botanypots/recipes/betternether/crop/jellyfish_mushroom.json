@@ -31,7 +31,7 @@
     {
       "chance": 0.05,
       "output": {
-        "item": "minecraft:slimeball"
+        "item": "minecraft:slime_ball"
       },
       "minRolls": 1,
       "maxRolls": 3

@@ -1,0 +1,41 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "vegandelight:soybean",
+        "vegandelight:wild_soybean"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "vegandelight:wild_soybean"
+  },
+  "categories": [
+    "dirt"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "vegandelight:wild_soybean"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "vegandelight:soybean"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "vegandelight:soybean"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    }
+  ]
+}
